@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Júlia Melo | Data Scientist & AI Engineer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Orbitron:wght@700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <canvas id="network-canvas"></canvas>
+
+    <!-- Navegação -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">JM<span class="dot">.</span></div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#hero">Início</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#projects">Projetos</a></li>
+                <li><a href="#timeline">Experiência</a></li>
+                <li><a href="#skills">Habilidades</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+            <button class="nav-toggle" id="navToggle">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="hero-content">
+            <h1 class="hero-name">JÚLIA MELO</h1>
+            <h2 class="hero-welcome">Bem-vindo ao Meu Portfólio</h2>
+            <p class="hero-tagline">Explorando IA, Ciência de Dados e Automação</p>
+
+            <div class="hero-icons">
+                <div class="hero-icon-circle" title="Inteligência Artificial">
+                    <i class="fas fa-brain"></i>
+                </div>
+                <div class="hero-icon-circle" title="Engenharia de Software">
+                    <i class="fas fa-microchip"></i>
+                </div>
+                <div class="hero-icon-circle" title="Data Science">
+                    <i class="fas fa-chart-line"></i>
+                </div>
+            </div>
+
+            <p class="hero-role">Cientista de Dados & Engenheira de IA em formação</p>
+            <p class="hero-tags">Agentes de IA &bull; Python &bull; MLOps &bull; Cloud</p>
+
+            <div class="hero-buttons">
+                <a href="#about" class="btn btn-primary">Saiba Mais</a>
+                <a href="#contact" class="btn btn-outline">Contato</a>
+            </div>
+        </div>
+
+        <div class="scroll-indicator">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <h2 class="section-title"><span class="gradient-purple">Sobre Mim</span></h2>
+            <div class="about-grid">
+                <div class="about-photo-wrapper fade-in">
+                    <div class="photo-circle">
+                        <img src="assets/julia.jpeg" alt="Júlia Melo" class="profile-photo">
+                    </div>
+                    <div class="photo-orbit"></div>
+                </div>
+                <div class="about-text fade-in">
+                    <h3 class="about-headline">Profissional apaixonada por Inteligência Artificial e Dados</h3>
+                    <p>Com experiência no desenvolvimento de Inteligência Artificial, chatbots e automação de processos, atuo na criação de agentes de IA com AWS e Azure, integrações via WhatsApp (Twilio) e orquestração de fluxos com Azure Bot Framework.</p>
+                    <p>Possuo base sólida em MLOps, deploy em cloud e gestão completa do ciclo de projetos de software. Estudante de Engenharia de Software, apaixonada por dados, IA e tecnologia.</p>
+                    <div class="about-badges">
+                        <div class="badge">
+                            <i class="fas fa-code"></i>
+                            <span>Fluente em algoritmos</span>
+                        </div>
+                        <div class="badge">
+                            <i class="fas fa-coffee"></i>
+                            <span>Movida a café</span>
+                        </div>
+                        <div class="badge">
+                            <i class="fas fa-heart"></i>
+                            <span>Apaixonada por IA</span>
+                        </div>
+                    </div>
+                    <blockquote class="about-quote">
+                        "Construindo soluções com inteligência artificial para resolver problemas reais e transformar a forma como as pessoas vivem e trabalham."
+                    </blockquote>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="container">
+            <h2 class="section-title"><span class="gradient-pink">Projetos em Destaque</span></h2>
+            <p class="section-subtitle">Projetos de AI/ML em desenvolvimento — em breve aqui!</p>
+            <div class="projects-grid">
+
+                <div class="project-card fade-in">
+                    <div class="project-icon" style="background: linear-gradient(135deg, #ff6ec7, #8b5cf6);">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <div class="project-links">
+                        <i class="fas fa-external-link-alt" title="Ver projeto"></i>
+                        <i class="fas fa-bookmark" title="Salvar"></i>
+                    </div>
+                    <h3>AI Chatbot WhatsApp</h3>
+                    <p>Agente de IA integrado ao WhatsApp via Twilio com orquestração inteligente de fluxos e respostas contextuais.</p>
+                    <div class="project-tags">
+                        <span>Python</span>
+                        <span>Twilio</span>
+                        <span>Azure Bot</span>
+                        <span>OpenAI</span>
+                    </div>
+                    <div class="coming-soon-overlay">
+                        <i class="fas fa-lock"></i>
+                        <span>Em Breve</span>
+                    </div>
+                </div>
+
+                <div class="project-card fade-in">
+                    <div class="project-icon" style="background: linear-gradient(135deg, #3b82f6, #06b6d4);">
+                        <i class="fas fa-cloud"></i>
+                    </div>
+                    <div class="project-links">
+                        <i class="fas fa-external-link-alt" title="Ver projeto"></i>
+                        <i class="fas fa-bookmark" title="Salvar"></i>
+                    </div>
+                    <h3>ML Pipeline na AWS</h3>
+                    <p>Pipeline completo de Machine Learning com deploy em cloud, monitoramento e automação via AWS SageMaker.</p>
+                    <div class="project-tags">
+                        <span>AWS</span>
+                        <span>Python</span>
+                        <span>MLOps</span>
+                        <span>SageMaker</span>
+                    </div>
+                    <div class="coming-soon-overlay">
+                        <i class="fas fa-lock"></i>
+                        <span>Em Breve</span>
+                    </div>
+                </div>
+
+                <div class="project-card fade-in">
+                    <div class="project-icon" style="background: linear-gradient(135deg, #10b981, #06b6d4);">
+                        <i class="fas fa-chart-bar"></i>
+                    </div>
+                    <div class="project-links">
+                        <i class="fas fa-external-link-alt" title="Ver projeto"></i>
+                        <i class="fas fa-bookmark" title="Salvar"></i>
+                    </div>
+                    <h3>Dashboard de Dados</h3>
+                    <p>Visualização e análise de dados com dashboard interativo para insights de negócio em tempo real.</p>
+                    <div class="project-tags">
+                        <span>Python</span>
+                        <span>Pandas</span>
+                        <span>Power BI</span>
+                        <span>SQL</span>
+                    </div>
+                    <div class="coming-soon-overlay">
+                        <i class="fas fa-lock"></i>
+                        <span>Em Breve</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Timeline -->
+    <section id="timeline">
+        <div class="container">
+            <h2 class="section-title"><span class="gradient-cyan">Linha do Tempo</span></h2>
+            <p class="section-subtitle">Minha jornada em Ciência de Dados e Engenharia de IA</p>
+            <div class="timeline">
+                <div class="timeline-line"></div>
+
+                <div class="timeline-item left fade-in">
+                    <div class="timeline-card">
+                        <div class="timeline-icon">
+                            <i class="fas fa-robot"></i>
+                        </div>
+                        <h3>Desenvolvedora de IA</h3>
+                        <p class="timeline-company">SoftExpert — Experiência Profissional</p>
+                        <p class="timeline-date">2025 - Presente</p>
+                        <p class="timeline-desc">Desenvolvimento de agentes de IA com AWS e Azure, integração via WhatsApp (Twilio), orquestração de fluxos com Azure Bot Framework e deploy de modelos em cloud com MLOps.</p>
+                        <div class="timeline-tags">
+                            <span>AWS</span>
+                            <span>Azure</span>
+                            <span>Python</span>
+                            <span>Twilio</span>
+                            <span>MLOps</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item right fade-in">
+                    <div class="timeline-card">
+                        <div class="timeline-icon">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <h3>Engenharia de Software</h3>
+                        <p class="timeline-company">Uninter — Graduação</p>
+                        <p class="timeline-date">Em andamento</p>
+                        <p class="timeline-desc">Formação em Engenharia de Software com foco em desenvolvimento de sistemas, estruturas de dados, algoritmos e fundamentos de Inteligência Artificial e Machine Learning.</p>
+                        <div class="timeline-tags">
+                            <span>Algoritmos</span>
+                            <span>Software</span>
+                            <span>Data Science</span>
+                            <span>IA</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Tech Stack -->
+    <section id="skills">
+        <div class="container">
+            <h2 class="section-title"><span class="gradient-pink">Tecnologias</span></h2>
+            <p class="section-subtitle">Tecnologias e ferramentas que uso para construir soluções inteligentes</p>
+            <div class="skills-grid">
+
+                <div class="skill-card fade-in">
+                    <h3>IA & Automação</h3>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <i class="fas fa-robot skill-icon"></i>
+                            <span>Chatbots & Agentes de IA</span>
+                            <span class="skill-pct">85%</span>
+                        </div>
+                        <div class="skill-bar"><div class="skill-fill" data-width="85"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <i class="fas fa-cogs skill-icon"></i>
+                            <span>Automação de Processos</span>
+                            <span class="skill-pct">75%</span>
+                        </div>
+                        <div class="skill-bar"><div class="skill-fill" data-width="75"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <i class="fas fa-brain skill-icon"></i>
+                            <span>LLMs & Eng. de Prompt</span>
+                            <span class="skill-pct">70%</span>
+                        </div>
+                        <div class="skill-bar"><div class="skill-fill" data-width="70"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <i class="fas fa-network-wired skill-icon"></i>
+                            <span>MLOps</span>
+                            <span class="skill-pct">65%</span>
+                        </div>
+                        <div class="skill-bar"><div class="skill-fill" data-width="65"></div></div>
+                    </div>
+                </div>
+
+                <div class="skill-card fade-in">
+                    <h3>Plataformas Cloud</h3>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <i class="fab fa-microsoft skill-icon"></i>
+                            <span>Microsoft Azure</span>
+                            <span class="skill-pct">70%</span>
+                        </div>
+                        <div class="skill-bar"><div class="skill-fill" data-width="70"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <i class="fab fa-aws skill-icon"></i>
+                            <span>Amazon AWS</span>
+                            <span class="skill-pct">65%</span>
+                        </div>
+                        <div class="skill-bar"><div class="skill-fill" data-width="65"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <i class="fas fa-comments skill-icon"></i>
+                            <span>Azure Bot Framework</span>
+                            <span class="skill-pct">75%</span>
+                        </div>
+                        <div class="skill-bar"><div class="skill-fill" data-width="75"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <i class="fas fa-phone skill-icon"></i>
+                            <span>Twilio / WhatsApp</span>
+                            <span class="skill-pct">75%</span>
+                        </div>
+                        <div class="skill-bar"><div class="skill-fill" data-width="75"></div></div>
+                    </div>
+                </div>
+
+                <div class="skill-card fade-in">
+                    <h3>Programação</h3>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <i class="fab fa-python skill-icon"></i>
+                            <span>Python</span>
+                            <span class="skill-pct">70%</span>
+                        </div>
+                        <div class="skill-bar"><div class="skill-fill" data-width="70"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <i class="fas fa-database skill-icon"></i>
+                            <span>SQL</span>
+                            <span class="skill-pct">60%</span>
+                        </div>
+                        <div class="skill-bar"><div class="skill-fill" data-width="60"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <i class="fab fa-js skill-icon"></i>
+                            <span>JavaScript</span>
+                            <span class="skill-pct">50%</span>
+                        </div>
+                        <div class="skill-bar"><div class="skill-fill" data-width="50"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <i class="fab fa-html5 skill-icon"></i>
+                            <span>HTML & CSS</span>
+                            <span class="skill-pct">55%</span>
+                        </div>
+                        <div class="skill-bar"><div class="skill-fill" data-width="55"></div></div>
+                    </div>
+                </div>
+
+                <div class="skill-card fade-in">
+                    <h3>Dados & Ferramentas</h3>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <i class="fas fa-chart-bar skill-icon"></i>
+                            <span>Pandas / NumPy</span>
+                            <span class="skill-pct">60%</span>
+                        </div>
+                        <div class="skill-bar"><div class="skill-fill" data-width="60"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <i class="fas fa-chart-pie skill-icon"></i>
+                            <span>Power BI</span>
+                            <span class="skill-pct">55%</span>
+                        </div>
+                        <div class="skill-bar"><div class="skill-fill" data-width="55"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <i class="fab fa-git-alt skill-icon"></i>
+                            <span>Git & GitHub</span>
+                            <span class="skill-pct">70%</span>
+                        </div>
+                        <div class="skill-bar"><div class="skill-fill" data-width="70"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <i class="fas fa-cube skill-icon"></i>
+                            <span>Docker</span>
+                            <span class="skill-pct">50%</span>
+                        </div>
+                        <div class="skill-bar"><div class="skill-fill" data-width="50"></div></div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h2 class="section-title"><span class="gradient-cyan">Entre em Contato</span></h2>
+            <p class="section-subtitle">Vamos conversar sobre oportunidades, projetos e ideias!</p>
+            <div class="contact-content fade-in">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <a href="mailto:juliamelodev@gmail.com">juliamelodev@gmail.com</a>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-linkedin"></i>
+                        <a href="https://www.linkedin.com/in/juliamelloo" target="_blank">linkedin.com/in/juliamelloo</a>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-github"></i>
+                        <a href="https://github.com/DevJuliaMelo" target="_blank">github.com/DevJuliaMelo</a>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-instagram"></i>
+                        <a href="https://www.instagram.com/juliamelodev/" target="_blank">instagram.com/juliamelodev</a>
+                    </div>
+                </div>
+                <div class="contact-social">
+                    <a href="https://www.linkedin.com/in/juliamelloo" target="_blank" class="social-btn linkedin">
+                        <i class="fab fa-linkedin"></i>
+                        <span>LinkedIn</span>
+                    </a>
+                    <a href="https://github.com/DevJuliaMelo" target="_blank" class="social-btn github">
+                        <i class="fab fa-github"></i>
+                        <span>GitHub</span>
+                    </a>
+                    <a href="mailto:juliamelodev@gmail.com" class="social-btn email">
+                        <i class="fas fa-envelope"></i>
+                        <span>Email</span>
+                    </a>
+                    <a href="https://www.instagram.com/juliamelodev/" target="_blank" class="social-btn instagram">
+                        <i class="fab fa-instagram"></i>
+                        <span>Instagram</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 Júlia Melo &bull; Feito com <i class="fas fa-heart" style="color: #ff6ec7;"></i> e muito café</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
