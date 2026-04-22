@@ -695,7 +695,7 @@ section:not(#hero)::before {
 
 .skills-grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 1.5rem;
 }
 
@@ -927,7 +927,7 @@ footer {
 
     .projects-grid { grid-template-columns: 1fr; }
 
-    .skills-grid { grid-template-columns: 1fr; }
+    .skills-grid { grid-template-columns: repeat(2, 1fr); }
 
     .timeline-line { left: 1.25rem; }
 
